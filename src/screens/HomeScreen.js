@@ -9,6 +9,11 @@ export default function HomeScreen({navigation}) {
     const b3=()=>navigation.navigate('Image');
     const b4=()=>navigation.navigate('Count');
     const b5=()=>navigation.navigate('Color');
+    const b6=()=>navigation.navigate('Square');
+    const b7=()=>navigation.navigate('Square1');
+    const b8=()=>navigation.navigate('Count1');
+    const b9=()=>navigation.navigate('Text');
+
     const greet=<Text>hello</Text>
   return (
     <View style={styles.container}>
@@ -30,6 +35,22 @@ export default function HomeScreen({navigation}) {
       </TouchableOpacity>
       <TouchableOpacity onPress={b5}> 
       <Text style={{color:'red'}}>Click Color
+      </Text> 
+      </TouchableOpacity>
+      <TouchableOpacity onPress={b6}> 
+      <Text style={{color:'red'}}>Click Square
+      </Text> 
+      </TouchableOpacity>
+      <TouchableOpacity onPress={b7}> 
+      <Text style={{color:'red'}}>Click Square1
+      </Text> 
+      </TouchableOpacity>
+      <TouchableOpacity onPress={b8}> 
+      <Text style={{color:'red'}}>Click Counter1
+      </Text> 
+      </TouchableOpacity>
+      <TouchableOpacity onPress={b9}> 
+      <Text style={{color:'red'}}>Click Text
       </Text> 
       </TouchableOpacity>
 
