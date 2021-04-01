@@ -11,6 +11,7 @@ import SquareScreen from '../screens/SquareScreen';
 import SquareScreen1 from '../screens/SquareScreen1';
 import CounterScreen1 from '../screens/CounterScreen1';
 import TextScreen from '../screens/TextScreen';
+import BoxScreen from '../screens/BoxScreen';
 
 
 
@@ -30,6 +31,7 @@ export default function MainNavigator() {
         <Stack.Screen name="Square1" component={SquareScreen1} />
         <Stack.Screen name="Count1" component={CounterScreen1} />
         <Stack.Screen name="Text" component={TextScreen} />
+        <Stack.Screen name="Box" component={BoxScreen} />
 
       </Stack.Navigator>
       </NavigationContainer>

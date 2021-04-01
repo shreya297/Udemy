@@ -12,7 +12,9 @@ export default function HomeScreen({navigation}) {
     const b6=()=>navigation.navigate('Square');
     const b7=()=>navigation.navigate('Square1');
     const b8=()=>navigation.navigate('Count1');
-    const b9=()=>navigation.navigate('Text');
+    const b9=()=>navigation.navigate('Text');    
+    const b10=()=>navigation.navigate('Box');
+
 
     const greet=<Text>hello</Text>
   return (
@@ -51,6 +53,10 @@ export default function HomeScreen({navigation}) {
       </TouchableOpacity>
       <TouchableOpacity onPress={b9}> 
       <Text style={{color:'red'}}>Click Text
+      </Text> 
+      </TouchableOpacity>
+      <TouchableOpacity onPress={b10}> 
+      <Text style={{color:'red'}}>Click Box
       </Text> 
       </TouchableOpacity>
 
